@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background: #eaeaea;
+}
+
+h1 {
+  color: #70beea;
+  font-family: Fredoka One;
+  text-align: center;
+  /*ketebalan font*/
+  font-weight: 300;
+  top: 10%;
+  padding-bottom: -20%;
+}
+
+.tulisan_login {
+  font-family: Fredoka One;
+  color: #7f7f7f;
+  font-size: 20px;
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+}
+
+.judul {
+  margin-top: 50px;
+}
+
+.kotak_login {
+  width: 350px;
+  background: rgb(255, 255, 255);
+  /*meletakkan form ke tengah*/
+  margin: 40px auto;
+  padding: 10px 50px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  box-shadow: 7px 7px 10px rgb(160, 160, 160);
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(163, 163, 163);
+}
+
+.tombol_login {
+  background: #70beea;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+.logindisini {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: -30px;
+  text-shadow: black;
+}
+.logindisini a {
+  text-decoration: none;
+}
